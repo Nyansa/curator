@@ -27,6 +27,7 @@ def config_client():
         Optional('master_only', default=False): Boolean(),
         Optional('api_key', default=None): Any(None, *string_types),
         Optional('apikey_auth', default=None): Any(None, *string_types),
+        Optional('skip_version_test', default=False): Boolean(),
     }
 
 # Configuration file: logging
